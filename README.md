@@ -10,7 +10,7 @@ then add a gitlab webhooker which send a post request to the webhook server whic
 
 # Install
 
-You can install it using `npm install -g gitlab-webhook-publish` or downloading this repository.
+You can install it using `npm install gitlab-webhook-publish` or downloading this repository.
 You have then to edit the config file `config/local.json`.
 
     {
