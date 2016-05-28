@@ -1,6 +1,6 @@
 {
   "name": "gitlab-webhook-publish",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A minimal server which allows to publish a package after a commit.",
   "repository": {
     "type": "git",
