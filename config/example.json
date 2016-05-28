@@ -14,9 +14,9 @@
     "admin_password": "password"
   },
   "npm_registry": {
-    "url": "http://localhost:4873",
-    "login": "root",
-    "password": "password",
+    "url": "https://registry.npmjs.org",
+    "login": "iprotectmyaccount",
+    "password": "12345678",
     "email": "name@provider.com"
   }
 }
