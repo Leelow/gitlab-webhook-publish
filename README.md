@@ -35,3 +35,9 @@ You have then to edit the config file `config/local.json`.
         "email": "name@provider.com"            /* The account email (same as login) */  
       }
     }
+
+To finish the installation, you have to add (only ONE time), a system hooker on gitlab (if you have a programmaticaly way to add a system hooker on gitlab, please contact me).
+
+To do that, go to `Admin Area > Hooks`. In `URL` input, add `http://<WEBHOOKER_HOST>:<WEBHOOKER_PORT>/project_create`. You can left `Secret Token` input empty. Check `Push events` checkbox. You can enable or not the `SSL Verification` if you want.
+
+Then ENJOY !
