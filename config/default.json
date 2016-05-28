@@ -1,0 +1,22 @@
+{
+  "webhooker": {
+    "host": "WEBHOOKER HOST",
+    "port": "WEBHOOKER PORT",
+    "filter": {
+      "namespace" : "REGEX TO FILTER REPOSITORY NAMESPACE",
+      "branch" : "REGEX TO FILTER COMMIT BRANCH"
+    }
+  },
+  "gitlab": {
+    "url": "URL OF GITLAB API",
+    "token": "YOUR PRIVATE TOKEN",
+    "admin_login": "ADMIN LOGIN",
+    "admin_password": "ADMIN PASSWORD"
+  },
+  "npm_registry": {
+    "url": "NPM REGISTRY URL",
+    "login": "A LOGIN OF AN AUTHORIZED ACCOUNT TO PUBLISH",
+    "password": "THE CORRESPONDING PASSWORD",
+    "email": "THE CORRESPONDING EMAIL"
+  }
+}

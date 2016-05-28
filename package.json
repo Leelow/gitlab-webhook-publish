@@ -1,0 +1,19 @@
+{
+  "name": "gitlab-webhook-publish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "config": "^1.20.4",
+    "express": "^4.13.4",
+    "fs-extra": "^0.30.0",
+    "hat": "0.0.3",
+    "request": "^2.72.0"
+  }
+}

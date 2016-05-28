@@ -1,0 +1,22 @@
+{
+  "webhooker": {
+    "host": "localhost",
+    "port": 3000,
+    "filter": {
+      "namespace" : "^local-app$",
+      "branch" : "^refs\/heads\/master$"
+    }
+  },
+  "gitlab": {
+    "url": "http://localhost:80",
+    "token": "dBqAHFnJsgMPTzzP6qGu",
+    "admin_login": "root",
+    "admin_password": "password"
+  },
+  "npm_registry": {
+    "url": "http://localhost:4873",
+    "login": "root",
+    "password": "password",
+    "email": "name@provider.com"
+  }
+}
